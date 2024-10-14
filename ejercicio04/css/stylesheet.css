@@ -3,11 +3,17 @@ div
     background-color: gray;
     border : 2px solid black;
 }
+
 h2
 {
     background-color: gray;
 }
+
 h1
 {
     color: red;
+}
+.background-gray
+{
+    background-color: gray;
 }
