@@ -1,0 +1,76 @@
+body #id1
+{
+    font: "arial";
+    background-color: white;
+    color: #333;
+}
+
+body #id2
+{
+    font: "sans-serif";
+    background-color: white;
+    color: #333;
+}
+
+h1
+{
+    font-size: 24px;
+    color: #003366;
+}
+
+h2
+{
+    font-size: 20px;
+    color: #006699;
+}
+
+p
+{
+    font-size: 16px;
+}
+
+blockquote
+{
+    font-size: 18px;
+    color: #444;
+    background-color: #e0f7fa;
+}
+
+abbr
+{
+    color: #d32f2f;
+}
+
+cite
+{
+font-style: italic;
+color: #d32f2f;
+}
+
+q
+{
+    color: #3d7b74 ;
+}
+
+address
+{
+font-size: 16px;
+background-color: #e0f7fa;
+}
+
+a
+{
+    color: #00796b;
+}
+
+bdo #normal
+{
+    direction: rtl;
+    color:#00796b; 
+}
+
+bdo #alreves
+{
+    direction: ltr;
+    color: #d32f2f;
+}
