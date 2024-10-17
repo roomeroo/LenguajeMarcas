@@ -1,0 +1,67 @@
+body{
+    font-family: "Times New Roman",Times, serif";
+
+}
+
+img{
+    size: 400x200;
+}
+
+h1{
+    color: #333;
+    font-size: 20px;
+}
+
+h2{
+    color: #666;
+    font-size: 16px;
+}
+
+a{
+    color: blue;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse; /* Bordes continuos */
+}
+
+th, td {
+    border: 2px solid black; /* Borde de las celdas */
+    padding: 15px; /* Espacio interno */
+    text-align: center; /* Alineación del texto */
+}
+
+td{
+    color: #000;
+    font-size: 16px;
+}
+
+th{
+    color: white;
+    font-size: 16px;
+}
+
+caption{
+    color: #000;
+    font-size: 14px;
+}
+
+thead{
+    background-color: #666;
+    color: white;
+    font-size: 16px;
+}
+
+tbody{
+    background-color: #fff;
+    color: black;
+}
+tfoot{
+    background-color: #ccc;
+}
+
+li{
+    color: #000;
+    font-size: 16px;
+}
