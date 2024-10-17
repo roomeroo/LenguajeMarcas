@@ -63,14 +63,12 @@ a
     color: #00796b;
 }
 
-bdo #normal
+#normal
 {
-    direction: rtl;
     color:#00796b; 
 }
 
-bdo #alreves
+#alreves
 {
-    direction: ltr;
     color: #d32f2f;
 }
