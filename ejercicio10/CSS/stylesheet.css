@@ -1,0 +1,59 @@
+@font-face {
+    font-family:'Ribey Marrow';
+    src: url('src/RibeyeMarrow-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Lobster';
+    src: url('src/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'JustAnotherHand';
+    src: url('src/JustAnotherHand-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #ccac4d;
+}
+
+.citaLatin {
+    font-family: 'Lobster';
+    font-size: 2.5rem;
+    text-align: left;
+}
+.contenedor {
+    text-align: right;
+}
+.citaEspanol {
+    font-family: 'JustAnotherHand';
+    margin: 0;
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.Titulo {
+    font-family: 'Ribey Marrow';
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+}
+
+p.intro {
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 200%;
+    text-align: justify;
+}
+cite.obra{
+    text-decoration: underline;
+}
