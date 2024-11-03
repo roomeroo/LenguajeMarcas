@@ -1,0 +1,83 @@
+body {
+    background-color: #F5F0CD;
+}
+form {
+    text-align: center;
+    font-size: 14px;
+    color: #6B121B;
+    border: #B8BFCB 1px dotted;
+    border-radius: 7px;
+    padding: 14px;
+    border: 1px dotted gray;     
+    background-color: #D2D7E1;
+    text-align: left;       
+}
+
+fieldset {
+    border-radius: 6px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+legend {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+input {
+    background-color: white;
+    border-radius: 4px;
+    color: #264F96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+button[type="submit"] {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    background-color: #2A477A;
+    font-size: 14px;
+    border-radius:3px;
+}
+
+button[type="submit"]:hover {
+    background-color: #5376B2;
+}
+
+textarea {
+    width: 450px;
+    height: 50px;
+    max-width: 493px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 50px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color:#264F96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+:required {
+    border-color: #4AA248;
+    box-shadow: 0px 0px 3px #4AA248;
+}
+
+:invalid {
+    border-color: #FF7F7F;
+    box-shadow: 0px 0px 3px #FF7F7F;
+}
