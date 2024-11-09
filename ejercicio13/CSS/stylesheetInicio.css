@@ -2,6 +2,8 @@ header {
     background-color: #1E374B;
     height: 90px;
     margin-bottom: 2px;
+    display: flex;
+    align-items: center;
 }
 
 html, body {
@@ -22,21 +24,18 @@ div {
     flex-direction:  row;
 }
 
-h1 {
+header h1 {
     color: white;
     font-size: 25px;
-    margin-top:30px;
 }
 
 header img {
     margin-right: 15px;
-    margin-top: 10px;
 }
 
 nav {
     background-color: #466482;
     color: white;
-    max-height: 7%;
 }
 
 nav ul {
@@ -48,7 +47,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 25px;
+    margin-right: 75px;
     padding-left: 15px;
 }
 
@@ -62,8 +61,8 @@ nav ul li a {
 main {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 70px;
     flex: 1;
 }
 
@@ -81,11 +80,15 @@ section {
     align-items: center;
 }
 
+main section p {
+    font-size: 22px;
+}
+
 footer {
     background-color: #14283C;
     display: flex;
     justify-content: space-between;
-    min-height: 80px;
+    min-height: 120px;
     align-items: center;
     
 }

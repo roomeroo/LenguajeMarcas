@@ -1,0 +1,128 @@
+header {
+    background-color: #1E374B;
+    height: 90px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+body {
+    background-color: #F0F0F5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div {
+    display: flex;
+    flex-direction:  row;
+}
+
+header h1 {
+    color: white;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+header img {
+    margin-right: 15px;
+}
+
+nav {
+    background-color: #466482;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: ceneter;
+    padding: 0px;
+}
+
+nav ul li {
+    margin-right: 75px;
+    padding-left: 15px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 30px;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+}
+
+div section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+div section iframe {
+    width: 100%;
+    height: 436px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+section audio {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #14283C;
+    display: flex;
+    justify-content: space-between;
+    min-height: 120px;
+    align-items: center;
+    
+}
+
+footer p {
+    color: rgb(223, 214, 214);
+    font-size: 10px;
+    margin-left: 15px;
+    max-height: 80px;
+    margin-right: 10px;
+}
+
+footer img {
+    margin-right: 15px;
+}
+
+.italic{
+    font-style: italic;
+}
