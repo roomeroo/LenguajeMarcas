@@ -1,10 +1,9 @@
 body{
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: lightgray(131, 82, 9);
+    flex-direction: column;
+    background-color: lightgray;
 }
 .row{
     display: flex;
@@ -19,14 +18,14 @@ button{
     font-size: 60px;
     margin: 10px;
     box-shadow: 2px 2px 2px gray;
-    background-color: lightgray;
+    background-image: linear-gradient(-45deg,white, lightgray, gray);
     border-radius: 10px;
     min-height: 85px;
     min-width: 85px;
 }
 
 button:active{
-    background-color: rgb(168, 168, 168);
+    background-image: linear-gradient(145deg,white, lightgray, gray);
 }
 
 .hidden{
@@ -36,18 +35,41 @@ button:active{
 
 .current{
     display: flex;
-
     box-shadow: 2px 2px 2px gray;
-    background-color: lightgray;
+    background-image: linear-gradient(-45deg, white ,20%, lightblue 80%);
+    border: 2px solid black;
     border-radius: 10px;
-    width: 600px;
+    width: 550px;
     min-height: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-size: 50px;
     padding: 10px;
     justify-content: flex-end;
 }
-
+.teclado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
 p{
     margin: 0;
+}
+
+.calculadora{
+    background-image: linear-gradient(-100deg, rgb(80, 80, 133),rgb(73, 9, 73));
+    border: 2px black solid;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.decoracion{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    margin: bottom 30px;
 }
