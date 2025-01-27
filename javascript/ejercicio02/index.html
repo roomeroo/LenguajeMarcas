@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div id = "div">
+        </div>
+        <button id = "button">Añadir elemento</button>    
+
+        <script>
+            let ParagraphCounter = 0;
+            let div = document.getElementById("div");
+            let button = document.getElementById("button");
+
+            button.addEventListener("click", function(){
+                ParagraphCounter++;
+                let addDiv = document.createElement("p");
+                addDiv.innerHTML = `Este es el texto ${ParagraphCounter}`;
+                div.append(addDiv);
+            });
+        </script>
+    </body>
+</html>

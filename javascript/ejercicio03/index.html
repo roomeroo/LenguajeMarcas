@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ejercicio3</title>
+    </head>
+
+    <body>
+        <div id = "container" style = "width: 350px; height: 350px;"></div>
+        <br>
+        <button id = "rojo">Rojo</button>
+        <button id = "verde">Verde</button>
+        <button id = "azul">Azul</button>
+
+        <script>
+            let container = document.getElementById("container");
+
+            document.getElementById("rojo").addEventListener("click", function(){
+                container.style.backgroundColor = "red";
+            });
+
+            document.getElementById("verde").addEventListener("click", function(){
+                container.style.backgroundColor = "green";
+            });
+
+            document.getElementById("azul").addEventListener("click", function(){
+                container.style.backgroundColor = "blue";
+            });
+
+        </script>
+    </body>
+</html>

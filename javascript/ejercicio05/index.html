@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ejercicio5</title>
+    </head>
+    <body>
+        <form>
+            <input id = "input" type = "text">
+            <button id = "button">Añadir tarea.</button>
+            <ul id = "ul">
+                <li>Deberia verse aqui abajo.</li>
+            </ul>
+        </form>
+
+        <script>
+            let ul = document.getElementById("ul");
+   
+            let button = document.getElementById("button");
+            let input = document.getElementsByName("input");
+            button.addEventListener("click", function(){
+                let newLi = document.createElement("li");
+                newLi.textContent = input[0].value;
+                ul.appendChild(newLi);
+            });
+
+        </script>
+    </body>
+</html>

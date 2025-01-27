@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ejercicio4</title>
+    </head>
+
+    <body>
+        <ul id = "lista">
+            <li>numero 1</li>
+            <li>numero 2</li>
+            <li>numero 3</li>
+        </ul>
+        <button id = "remover">Borrar ultima poscion</button>
+
+        <script>
+            let remover = document.getElementById("remover");
+            let lista = document.getElementById("lista");
+            remover.addEventListener("click", function(){
+                if(lista.lastElementChild)
+                    lista.lastElementChild.remove();
+            });
+
+        </script>
+    </body>
+</html>
